@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello Board</title>
+
+    <link rel="stylesheet" href="htmlcss.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body>
+    <nav class="nav">
+        <ul class="menubar">
+            <li class="cursor">
+                <i class="home fas fa-home"></i>
+            </li>
+            <li class="cursor">
+                <i class="boards fas fa-th-list">Boards</i>
+            </li>
+            <li class="menuinput">
+                <input type="text">
+            </li>
+        </ul>
+        <div class="title">Tralala</div>
+        <div class="response">
+            <span class="cursor">
+                <i class="fas fa-plus" id="added-board"></i>
+            </span>
+            <span class="cursor">
+                <i class="fas fa-user" id="profile-pic"></i>
+            </span>
+        </div>
+        
+    </nav>
+    <div class="container">
+        <div class="menu">
+            <div class="title-board">Frontend Training</div>
+            <div class="show-menu cursor">
+                <i class="fas fa-ellipsis-v"></i>
+                Show menu
+            </div>
+        </div>
+        <div class="board">
+            <div class="task-wrapper">
+                <div class="list">
+                    <div class="title-container">
+                        <h3 class="list-title">To DO</h3>
+                        <span class="list-more cursor">...</span>
+                    </div>
+                    <div class="task cursor">
+                        Learn HTML  
+                        <i class="edit fas fa-pencil-alt cursor"></i>
+                    </div>
+                    <div class="task cursor">
+                        Learn CSS  
+                        <i class="edit fas fa-pencil-alt cursor"></i>
+                    </div>
+                    <div class="task cursor">
+                        Learn JavaScript 
+                        <i class="edit fas fa-pencil-alt cursor"></i>
+                    </div>
+                    <div class="add-card-messge cursor">+Add another card</div>
+                </div>
+            </div>
+            <div class="task-wrapper">
+                <div class="list">
+                    <div class="title-container">
+                        <h3 class="list-title">Doing</h3>
+                        <span class="list-more cursor">...</span>
+                    </div>
+                    <div class="task cursor">Prepare resume</div>
+                    <div class="add-card-form">
+                        <form >
+                            <textarea rows="3" placeholder="Enter a title for this card..." class="width-input"></textarea>
+                            <div class="add-card-form-actions">
+                                <button class="btn btn-inline btn-primary add-card-button cursor">Add card</button>
+                                <i class="fas fa-2x fa-times add-card-cancel cursor"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="task-wrapper">
+                <div class="list">
+                    <div class="title-container">
+                        <h3 class="list-title">Testing/Verifying</h3>
+                        <span class="list-more cursor">...</span>
+                    </div>
+                    <div class="task cursor">Twitter app frontend</div>
+                    <div class="add-card-message cursor">+ Add another card</div>
+                </div>
+            </div>
+            <div class="task-wrapper">
+                <div class="list">
+                    <div class="title-container">
+                        <h3 class="list-title">Deplyoing</h3>
+                        <span class="list-more cursor">...</span>
+                    </div>
+                    <div class="task cursor">Twitter app backend</div>
+                    <div class="add-car-message cursor">+ Add another card</div>
+                </div>
+            </div>
+            <div class="task-wrapper">
+                <div class="list">
+                    <div class="title-container">
+                        <h3 class="list-title">Done</h3>
+                        <span class="list-more cursor">...</span>
+                    </div>
+                    <div class="add-card-message cursor">+ Add card</div>
+                </div>
+            </div>
+            <div class="task-wrapper">
+                <div class="list">
+                    <div class="add-list-message cursor">+ Add another list</div>
+                </div>
+            </div>
+            <div class="task-wrapper">
+                <div class="list">
+                    <div class="add-card-form">
+                        <form> 
+                            <textarea rows="3" placeholder="Enter list title..." class="width-input"></textarea>
+                            <div class="add-list-form-actions">
+                                <button class="btn btn-inline btn-primary add-list-button cursor">Add List</button>
+                                <i class="fas fa-2x fa-times add-list-cancel cursor"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
